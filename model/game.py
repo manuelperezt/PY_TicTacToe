@@ -56,7 +56,6 @@ class Game:
         self.controller = controller
 
     def check_position(self, row: int, col: int) -> bool:
-        print(self.get_position_status(row, col))
         if self.get_position_status(row, col) is None:
             return True
         else:
